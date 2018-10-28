@@ -1,0 +1,93 @@
+﻿<UserControl x:Class="GUI.View.AddFoodItemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GUI.View"
+             xmlns:MahControls="http://metro.mahapps.com/winfx/xaml/controls"
+             mc:Ignorable="d" 
+             HorizontalAlignment="Stretch"
+	         VerticalAlignment="Stretch"
+	         HorizontalContentAlignment="Stretch"
+	         VerticalContentAlignment="Stretch"
+             MinHeight="300"
+             MinWidth="400"
+             Height="Auto"
+             Width="Auto">
+    <UserControl.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="Black"/>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid>
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Setter Property="Visibility" Value="Visible"/>
+                    <Style.Triggers >
+                        <DataTrigger Binding="{Binding  IsLoad}" Value="true">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Grid.Style>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Row="0" >
+                <Label  Content="Calories:"/>
+                <Label Content="{Binding Food.NfCalories}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" >
+                <Label Content="Total Fat:"/>
+                <Label Content="{Binding Food.NfTotalFat}"/>
+            </StackPanel>
+            <StackPanel  Grid.Row="2" >
+                <Label Content="Sugars:"/>
+                <Label Content="{Binding Food.NfSugars}"/>
+            </StackPanel>
+            <StackPanel  Grid.Row="2" >
+                <Label Content="Sugars:"/>
+                <Label Content="{Binding Food.NfSugars}"/>
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" >
+                <Label Content="Serving unit" />
+                <TextBlock Text="{Binding Food.ServingUnit}"/>
+            </StackPanel>
+            <StackPanel  Grid.Column="1" Grid.Row="1" >
+                <Label Content="Serving weight grams" />
+                <TextBlock Text="{Binding Food.ServingWeightGrams}" />
+            </StackPanel>
+            <StackPanel  Grid.Column="1" Grid.Row="2" >
+                <Label Content="Quantity" />
+                <TextBox Text="{Binding Quantity, Mode=TwoWay}" Margin="5"  />
+            </StackPanel>
+            <Button Grid.Column="1" Content="Add" Command="{Binding AddFoodCommand}" Grid.Row="4" Margin="5"/>
+
+        </Grid>
+        <StackPanel Grid.Row="1" Orientation="Vertical" VerticalAlignment="Center">
+            <StackPanel.Style>
+                <Style TargetType="StackPanel">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers >
+                        <DataTrigger Binding="{Binding  IsLoad}" Value="true">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </StackPanel.Style>
+            <MahControls:ProgressRing/>
+            <TextBlock Text="Please wait..." TextAlignment="Center" Margin="0 10 0 0" FontSize="15"/>
+        </StackPanel>
+
+    </Grid>
+    
+</UserControl>

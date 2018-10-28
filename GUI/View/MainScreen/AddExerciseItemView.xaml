@@ -1,0 +1,858 @@
+﻿<UserControl x:Class="GUI.View.AddExerciseItemView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GUI.View.MainScreen"
+             mc:Ignorable="d" 
+             
+             HorizontalAlignment="Stretch"
+	         VerticalAlignment="Stretch"
+	         HorizontalContentAlignment="Stretch"
+	         VerticalContentAlignment="Stretch"
+             Height="auto"
+             Width="auto" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.25*"/>
+            <ColumnDefinition Width="0.15*"/>
+            <ColumnDefinition Width="0.3*"/>
+            <ColumnDefinition Width="0.3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition  Height="Auto" />
+        </Grid.RowDefinitions>
+       
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0" Orientation="Vertical">
+                <Label Content="Name" />
+                <ScrollViewer>
+                    <TextBlock  TextWrapping="Wrap" Text="{Binding Exercise.Name}" />
+                </ScrollViewer>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Orientation="Vertical">
+                <Label Content="Metabolic Equivalent" />
+                <TextBlock Text="{Binding Exercise.MetabolicEquivalent}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="2" >
+                <Label Content="Minuts" />
+                <TextBox Text="{Binding Quantity}"/>
+            </StackPanel>
+            <StackPanel Grid.Row="3" >
+                <Button Content="Add" Command="{Binding AddExerciseCommand}" Grid.Row="1" Margin="5,5,5,4" Grid.Column="1"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="1" >
+            <StackPanel Orientation="Vertical">
+                <Label Content="Description:"/>
+                <ScrollViewer>
+                    <TextBlock  TextWrapping="WrapWithOverflow" Text="{Binding Exercise.Description}" />
+                </ScrollViewer>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Column="2">
+            <Grid >
+                <Image Source="..\Img\muscular_system_front.png" Stretch="UniformToFill"/>
+                <Grid Grid.Column="2">
+                    <Grid >
+                        <Image Source="..\Img\muscular_system_front.png" Stretch="UniformToFill"/>
+                        <Image Source="..\Img\main\muscle-1.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[1].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-2.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[2].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-3.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[3].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-4.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[4].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-5.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[5].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-6.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[6].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-7.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[7].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-8.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[8].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-9.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[9].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-10.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[10].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-11.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[11].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-12.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[12].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-13.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[13].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-14.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[14].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\main\muscle-15.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.MainMuscles[15].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-1.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[1].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-2.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[2].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-3.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[3].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-4.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[4].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-5.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[5].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-6.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[6].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-7.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[7].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-8.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[8].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-9.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[9].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-10.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[10].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-11.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[11].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-12.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[12].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-13.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[13].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-14.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[14].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                        <Image Source="..\Img\secondary\muscle-15.png" Stretch="UniformToFill">
+                            <Image.Style>
+                                <Style TargetType="Image">
+                                    <Setter Property="Visibility" Value="Hidden"/>
+                                    <Style.Triggers >
+
+                                        <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[15].IsFront}" Value="true"  >
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Image.Style>
+                        </Image>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Column="3">
+            <Grid >
+                <Image Source="..\Img\muscular_system_back.png" Stretch="UniformToFill"/>
+                <Image Source="..\Img\main\muscle-1.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[1].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-2.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[2].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-3.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[3].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-4.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[4].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-5.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[5].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-6.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[6].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-7.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[7].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-8.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[8].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-9.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[9].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-10.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[10].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-11.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[11].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-12.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[12].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-13.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[13].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-14.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[14].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\main\muscle-15.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.MainMuscles[15].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-1.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[1].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-2.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[2].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-3.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[3].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-4.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[4].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-5.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[5].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-6.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[6].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-7.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[7].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-8.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[8].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-9.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[9].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-10.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[10].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-11.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[11].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-12.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[12].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-13.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[13].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-14.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[14].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+                <Image Source="..\Img\secondary\muscle-15.png" Stretch="UniformToFill">
+                    <Image.Style>
+                        <Style TargetType="Image">
+                            <Setter Property="Visibility" Value="Hidden"/>
+                            <Style.Triggers >
+
+                                <DataTrigger Binding="{Binding Exercise.SecondaryMuscles[15].IsFront}" Value="false"  >
+                                    <Setter Property="Visibility" Value="Visible"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+
+            </Grid>
+        </Grid>
+
+    </Grid>
+</UserControl>

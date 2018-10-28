@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="GUI.View.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GUI.View"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             mc:Ignorable="d" 
+              HorizontalAlignment="Stretch"
+	         VerticalAlignment="Stretch"
+	         HorizontalContentAlignment="Stretch"
+	         VerticalContentAlignment="Stretch"
+             Height="auto"
+             Width="auto">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!--LabelsStep="50" TicksStep="100" Wedge="400"-->
+        <Label Margin="10" Foreground="Black" Grid.Row="1" >Calories</Label>
+        <lvc:AngularGauge Grid.Row="1" Value="{Binding Consume.CaloriesConsume}" FromValue="0" ToValue="3000" 
+                        
+                          TicksForeground="White" Foreground="White" 
+                          FontWeight="Bold" FontSize="16"
+                          SectionsInnerRadius=".5">
+            <lvc:AngularGauge.Sections>
+                <lvc:AngularSection FromValue="0" ToValue="{Binding Green.CaloriesConsume}" Fill="Green"/>
+                <lvc:AngularSection FromValue="{Binding Red.CaloriesConsume}" ToValue="3000" Fill="Red"/>
+            </lvc:AngularGauge.Sections>
+        </lvc:AngularGauge>
+        <local:BottomChartsView Grid.Row="2" DataContext="{Binding BottomChartViewModel}" />
+        
+
+    </Grid>
+</UserControl>
