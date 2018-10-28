@@ -10,7 +10,7 @@ using System.Windows.Input;
 
 namespace GUI.ViewModel.MainScreen
 {
-   public class AddExerciseItemViewModel : ViewModelBase
+    public class AddExerciseItemViewModel : ViewModelBase
     {
         private BL.IBlRouter blRouter;
         private IEventAggregator _eventAggregator;
@@ -24,8 +24,8 @@ namespace GUI.ViewModel.MainScreen
             AddExerciseCommand = new DelegateCommand<Type>(OnAddExercise, CanAddExercise);
             _name = name;
             Init(_name);
-        
-         }
+
+        }
         private bool CanAddExercise(Type arg)
         {
             return true;
@@ -51,7 +51,7 @@ namespace GUI.ViewModel.MainScreen
             Exercise = await blRouter.GetExercise(name);
         }
 
-      
+
 
         public ICommand AddExerciseCommand { get; }
 
@@ -60,17 +60,21 @@ namespace GUI.ViewModel.MainScreen
         public Exercise Exercise
         {
             get { return exercise; }
-            set {exercise = value;
+            set
+            {
+                exercise = value;
                 OnPropertyChanged();
 
             }
         }
         private int quantity;
-            
+
         public int Quantity
         {
             get { return quantity; }
-            set { quantity = value;
+            set
+            {
+                quantity = value;
                 OnPropertyChanged();
             }
         }

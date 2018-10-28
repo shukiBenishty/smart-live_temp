@@ -29,6 +29,6 @@ namespace BL
         Task<bool> GetisRegister();
         Task SaveGoal(Goal goal);
         Task<Goal> GetGoal(DateTime dateTime);
-        Task<Goal> GetDefaultGoal(DateTime dateTime);
+        Goal GetDefaultGoal(DateTime dateTime);
     }
 }

@@ -23,30 +23,40 @@ namespace DAL.LocalDb
         
         static private void LoadJson()
         {
-            using (StreamReader r = new StreamReader("‏‏file2.json"))
-            {
-                string json = r.ReadToEnd();
-                muscles = new List<Muscles>();
-                for (int i = 0; i < 16; i++)
-                {
-                    muscles.Add(null);
-                }
-                var temp = JsonConvert.DeserializeObject<List<Muscles>>(json);
-                foreach (var item in temp)
-                {
-                    muscles[item.Id] = item;
-                }
 
+            try
+            {
+                
+                using (StreamReader r = new StreamReader("‏‏muscles.json"))
+                {
+                    string json = r.ReadToEnd();
+                    muscles = new List<Muscles>();
+                    for (int i = 0; i < 16; i++)
+                    {
+                        muscles.Add(null);
+                    }
+                    var temp = JsonConvert.DeserializeObject<List<Muscles>>(json);
+                    foreach (var item in temp)
+                    {
+                        muscles[item.Id] = item;
+                    }
+
+                }
+                using (StreamReader r1 = new StreamReader("exercises.json"))
+                {
+                    string json1 = r1.ReadToEnd();
+                    List<DataExercise> items = JsonConvert.DeserializeObject<List<DataExercise>>(json1);
+
+                    foreach (var item in items)
+                    {
+                        exercises.Add(new Exercise(item, muscles));
+                    }
+                }
             }
-            using (StreamReader r1 = new StreamReader("file.json"))
+            catch (Exception e)
             {
-                string json1 = r1.ReadToEnd();
-                List<DataExercise> items = JsonConvert.DeserializeObject<List<DataExercise>>(json1);
 
-                foreach (var item in items)
-                {
-                    exercises.Add(new Exercise(item, muscles));
-                }
+                throw e;
             }
         }
 

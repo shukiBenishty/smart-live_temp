@@ -12,10 +12,11 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
-            <!--<ColumnDefinition/>-->
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <chart:ChartDateValue DataContext="{Binding WeightChartViewModel}" />
-        <chart:ChartDateValue Grid.Column="2" DataContext="{Binding BmiChartViewModel}"/>
-        <!--<chart:ChartDateValue Grid.Column="3" DataContext="{Binding BmiChartViewModel}"/>-->
+        <chart:ChartDateValue DataContext="{Binding WeightChartViewModel}" Margin="0,0,5,0" />
+        <chart:ChartDateValue Grid.Column="1" DataContext="{Binding BmiChartViewModel}" Margin="0,0,5,0" />
+       
+     
     </Grid>
 </UserControl>

@@ -5,9 +5,9 @@ using System.Windows.Media.Imaging;
 
 namespace BE.Models
 {
-    public class ExerciseInTraining1
+    public class ExerciseInTraining
     {
-        public ExerciseInTraining1()
+        public ExerciseInTraining()
         {
             Id = Guid.NewGuid();
         }
@@ -17,7 +17,7 @@ namespace BE.Models
         [Key]
         public string Exercise { get; set; }
 
-        public string Quantity { get; set; }
+        public int Quantity { get; set; }
 
         public float Calories { get; set; }
 

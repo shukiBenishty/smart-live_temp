@@ -34,7 +34,6 @@ namespace GUI.ViewModel
             _eventAggregator.GetEvent<BE.Events.UserLogInSeccEvent>().Subscribe(UpdateData);
             _eventAggregator.GetEvent<BE.Events.GoalsIsUpdate>().Subscribe(UpdateGoal);
             _blRouter = blRouter;
-
             UpdateData();
         }
 
@@ -45,13 +44,15 @@ namespace GUI.ViewModel
 
         private void UpdateData()
         {
-            UpdateConsume();
             UpdateGoal();
+            UpdateConsume();
+           
         }
 
         private async void  UpdateConsume()
         {
             Consume = await new BlRouter(_eventAggregator).GetConsume(_dateTime);
+            
         }
 
         private void OnSelectedDateChanged(SelectedDateChangedEventArg obj)
@@ -68,13 +69,24 @@ namespace GUI.ViewModel
            var result = await  new BlRouter(_eventAggregator).GetGoal(_dateTime);
             if (result == null)
             {
-                result = await new BlRouter(_eventAggregator).GetDefaultGoal(_dateTime);
+                result =  new BlRouter(_eventAggregator).GetDefaultGoal(_dateTime);
             }
+            Goal = result;
         }
 
         public BottomChartViewModel BottomChartViewModel { get; }
 
+
+        private Goal to;
+
+        public Goal To
+        {
+            get { return to; }
+            set { to = value; OnPropertyChanged(); }
+        }
+
        
+
 
         public Goal Consume
         {
@@ -89,6 +101,8 @@ namespace GUI.ViewModel
             set { goal = value; OnPropertyChanged(); }
         }
 
+
+
         public bool IsLoad
         {
             get { return isLoad; }
@@ -98,7 +112,6 @@ namespace GUI.ViewModel
 
         public Task LoadAsync()
         {
-            
             return null;
         }
     }

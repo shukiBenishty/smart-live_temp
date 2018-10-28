@@ -12,29 +12,108 @@
 	         VerticalContentAlignment="Stretch"
              Height="auto"
              Width="auto">
+    <UserControl.Resources>
+        <Style TargetType="lvc:Gauge">
+            <Setter Property="Margin" Value="7"/>
+        </Style>
+    </UserControl.Resources>
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
             <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+            <RowDefinition Height="50"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition/>
+            <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <!--LabelsStep="50" TicksStep="100" Wedge="400"-->
-        <Label Margin="10" Foreground="Black" Grid.Row="1" >Calories</Label>
-        <lvc:AngularGauge Grid.Row="1" Value="{Binding Consume.CaloriesConsume}" FromValue="0" ToValue="3000" 
-                        
-                          TicksForeground="White" Foreground="White" 
-                          FontWeight="Bold" FontSize="16"
-                          SectionsInnerRadius=".5">
-            <lvc:AngularGauge.Sections>
-                <lvc:AngularSection FromValue="0" ToValue="{Binding Green.CaloriesConsume}" Fill="Green"/>
-                <lvc:AngularSection FromValue="{Binding Red.CaloriesConsume}" ToValue="3000" Fill="Red"/>
-            </lvc:AngularGauge.Sections>
-        </lvc:AngularGauge>
-        <local:BottomChartsView Grid.Row="2" DataContext="{Binding BottomChartViewModel}" />
+       
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Margin="10" Foreground="Black" Grid.Row="0" >Calories</Label>
+        <lvc:Gauge Grid.Row="1"
+                   From="0" To="{Binding  Goal.CaloriesConsume}" Value="{Binding  Consume.CaloriesConsume}" >
+                <lvc:Gauge.GaugeActiveFill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="Green" Offset="0.0" />
+                        <GradientStop Color="Yellow" Offset="0.5" />
+                        <GradientStop Color="OrangeRed" Offset="0.8" />
+                        <GradientStop Color="Red" Offset="1.0" />
+                    </LinearGradientBrush>
+                </lvc:Gauge.GaugeActiveFill>
+            </lvc:Gauge>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Margin="10" Foreground="Black" Grid.Row="0" Grid.Column="1" >Protein</Label>
+
+        <lvc:Gauge Grid.Row="1" Grid.Column="1"
+                   From="0" To="{Binding  Goal.ProteinConsume}" Value="{Binding  Consume.ProteinConsume}" >
+            <lvc:Gauge.GaugeActiveFill>
+                <LinearGradientBrush>
+                    <GradientStop Color="Green" Offset="0.0" />
+                    <GradientStop Color="Yellow" Offset="0.5" />
+                    <GradientStop Color="OrangeRed" Offset="0.8" />
+                    <GradientStop Color="Red" Offset="1.0" />
+                </LinearGradientBrush>
+            </lvc:Gauge.GaugeActiveFill>
+        </lvc:Gauge>
+        
+
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Margin="10" Foreground="Black" Grid.Row="0" Grid.Column="2" >Dietary Fiber</Label>
+
+        <lvc:Gauge Grid.Row="1" Grid.Column="2"
+                   From="0" To="{Binding  Goal.DietaryFiberConsume}" Value="{Binding  Consume.DietaryFiberConsume}" >
+            <lvc:Gauge.GaugeActiveFill>
+                <LinearGradientBrush>
+                    <GradientStop Color="Green" Offset="0.0" />
+                    <GradientStop Color="Yellow" Offset="0.5" />
+                    <GradientStop Color="OrangeRed" Offset="0.8" />
+                    <GradientStop Color="Red" Offset="1.0" />
+                </LinearGradientBrush>
+            </lvc:Gauge.GaugeActiveFill>
+        </lvc:Gauge>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Margin="10" Foreground="Black" Grid.Row="2" Grid.Column="0" >Total Fat</Label>
+
+        <lvc:Gauge Grid.Row="3" Grid.Column="0"
+                   From="0" To="{Binding  Goal.TotalfatConsume}" Value="{Binding  Consume.TotalfatConsume}" >
+            <lvc:Gauge.GaugeActiveFill>
+                <LinearGradientBrush>
+                    <GradientStop Color="Green" Offset="0.0" />
+                    <GradientStop Color="Yellow" Offset="0.5" />
+                    <GradientStop Color="OrangeRed" Offset="0.8" />
+                    <GradientStop Color="Red" Offset="1.0" />
+                </LinearGradientBrush>
+            </lvc:Gauge.GaugeActiveFill>
+        </lvc:Gauge>
+
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Margin="10" Foreground="Black" Grid.Row="2" Grid.Column="1" >Carbohydrates</Label>
+        <lvc:Gauge Grid.Row="3" Grid.Column="1"
+                   From="0" To="{Binding  Goal.CarbohydrateConsume}" Value="{Binding  Consume.CarbohydrateConsume}" >
+            <lvc:Gauge.GaugeActiveFill>
+                <LinearGradientBrush>
+                    <GradientStop Color="Green" Offset="0.0" />
+                    <GradientStop Color="Yellow" Offset="0.5" />
+                    <GradientStop Color="OrangeRed" Offset="0.8" />
+                    <GradientStop Color="Red" Offset="1.0" />
+                </LinearGradientBrush>
+            </lvc:Gauge.GaugeActiveFill>
+        </lvc:Gauge>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Margin="10" Foreground="Black" Grid.Row="2" Grid.Column="2" >SodiumConsume</Label>
+        <lvc:Gauge Grid.Row="3" Grid.Column="2" 
+                   From="0" To="{Binding  Goal.SodiumConsume}" Value="{Binding  Consume.SodiumConsume}" >
+            <lvc:Gauge.GaugeActiveFill>
+                <LinearGradientBrush>
+                    <GradientStop Color="Green" Offset="0.0" />
+                    <GradientStop Color="Yellow" Offset="0.5" />
+                    <GradientStop Color="OrangeRed" Offset="0.8" />
+                    <GradientStop Color="Red" Offset="1.0" />
+                </LinearGradientBrush>
+            </lvc:Gauge.GaugeActiveFill>
+        </lvc:Gauge>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Margin="10" Foreground="Black" Grid.Row="4" Grid.Column="0" >Weight</Label>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Margin="10" Foreground="Black" Grid.Row="4" Grid.Column="1" >BMI</Label>
+        <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" Margin="10" Foreground="Black" Grid.Row="4" Grid.Column="2" >Exercise</Label>
+        <local:BottomChartsView Grid.Row="5" Grid.ColumnSpan="3" DataContext="{Binding BottomChartViewModel}" />
         
 
     </Grid>

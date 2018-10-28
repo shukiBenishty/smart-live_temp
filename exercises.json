@@ -1,0 +1,1657 @@
+[
+  {
+    "name": "Spinning",
+    "description": "The main muscles used in a spinning exercise are the quadriceps.",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      8,
+      6
+    ]
+  },
+  {
+    "name": "car push",
+    "description": "Place car in neutral (with partner to apply breaks if necessary) and drive with legs to push car",
+    "MainMuscles": [
+      7,
+      15
+    ],
+    "category": 14,
+    "SecondaryMuscles": [
+      10
+    ]
+  },
+  {
+    "name": "Dumbbell Incline Curl",
+    "description": "With elbows back to sides, raise one dumbbell and rotate forearm until forearm is vertical and palm faces shoulder. Lower to original position and repeat with opposite arm. Continue to alternate between sides.",
+    "MainMuscles": [
+      1
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      13
+    ]
+  },
+  {
+    "name": "Pelvic Tilting Medium Risk",
+    "description": "Lay on your back and lift your buttocks off the floor. Feet are flat on the floor. ",
+    "MainMuscles": [],
+    "category": 12,
+    "SecondaryMuscles": [
+      6
+    ]
+  },
+  {
+    "name": "Dumbbell Goblet squat",
+    "description": "Grasp dumbbell with both hands at the sides of the upper plates. Hold dumbbell in front of chest, close to torso. Place feet about shoulderwide apart, keep knees slightly bent. Squat down until thighs are parallel to floor. Keep back straight, bend and move hips backward to keep knees above feet. Return, keep knees slightly flexed. Repeat. Keep bodyweight on heels and look ahead or slightly above to keep back straight.",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Side to Side Push Ups",
+    "description": "-start in push up position -lean the body weight to the right side, and complete a push up with the chest over the right hand -come back to the centered position -on rep 2, lean to the left side",
+    "MainMuscles": [
+      2,
+      14,
+      4,
+      5
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "High Knee Jumps",
+    "description": "-Start with legs slightly wider than shoulder width -Drop into a bodyweight squat -As you hit the bottom of the squat, explode upwards into a jump while simultaneously tucking your knees into your chest midflight.  Remain tucked until the apex of your jump.",
+    "MainMuscles": [
+      11,
+      7,
+      10,
+      15
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      14,
+      6,
+      3
+    ]
+  },
+  {
+    "name": "Z Curls",
+    "description": "Perform a traditional dumbbell biceps curl, pausing at the top of the motion. -Twist your hands until your palms are facing away from your shoulders (in reverse curl position).  Basically, twist your right wrist inwards to the left, and vice versa. ",
+    "MainMuscles": [
+      1,
+      13
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Bear Walk",
+    "description": "-Rest your weight on your palms and the balls of your feet, not dissimilar to normal pushup position -Move by stepping with your R palm and L foot, then your L palm and R foot.  Basically, walk like a lumbering bear.",
+    "MainMuscles": [
+      2,
+      7,
+      4,
+      6,
+      3,
+      15,
+      5
+    ],
+    "category": 11,
+    "SecondaryMuscles": [
+      8,
+      12,
+      14,
+      10,
+      9
+    ]
+  },
+  {
+    "name": "Calf Press using Leg Press Machine",
+    "description": "Put  the balls of your feet on an extended leg press pad.  Use your calves to press the weight by flexing your feet/toes into a pointed position, and releasing back into a relaxed position. ",
+    "MainMuscles": [
+      7,
+      15
+    ],
+    "category": 14,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Trunk rotation with cable ",
+    "description": "Seated trunk rotation with cable ",
+    "MainMuscles": [
+      14
+    ],
+    "category": 10,
+    "SecondaryMuscles": [
+      12
+    ]
+  },
+  {
+    "name": "Upright Row w/ Dumbbells",
+    "description": "Feet apart at shoulder width. Nice and Slow!",
+    "MainMuscles": [
+      2,
+      9
+    ],
+    "category": 13,
+    "SecondaryMuscles": [
+      1
+    ]
+  },
+  {
+    "name": "Turkish Get-Up",
+    "description": "Starting on back, move to the standing position with dumbbell in one hand.  Switch hands between reps.",
+    "MainMuscles": [
+      2,
+      8,
+      14,
+      3
+    ],
+    "category": 10,
+    "SecondaryMuscles": [
+      2,
+      8,
+      14,
+      3
+    ]
+  },
+  {
+    "name": "Side Plank",
+    "description": "Works your obliques and helps stabilize your spine. Lie on your side and support your body between your forearm and knee to your feet.",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": [
+      14
+    ]
+  },
+  {
+    "name": "Full Sit Outs",
+    "description": "(A) Get in high plank position on your hands and toes.(B) Shift your weight to your left hand as you turn your body to the right; bend your right leg behind you and extend your right arm up. ",
+    "MainMuscles": [
+      8,
+      14,
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Superman",
+    "description": "Lay flat on your stomach with your arms extended in front of you on the ground as your legs are lying flat. Lift both your arms and legs at the same time, as if you were flying, and contract the lower back.",
+    "MainMuscles": [
+      8,
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Isometric Wipers",
+    "description": "Assume push-up position, with hands slightly wider than shoulder width. Shift body weight as far as possible to one side, allowing the elbow on that side to flex.  Reverse the motion, moving completely over to the other side. ",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": [
+      6
+    ]
+  },
+  {
+    "name": "Shotgun Row",
+    "description": " Attach a single handle to a low cable. After selecting the correct weight, stand a couple feet back with a wide-split stance. Your arm should be extended and your shoulder forward. This will be your starting position.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Incline Dumbbell Row",
+    "description": " Using a neutral grip, lean into an incline bench. Take a dumbbell in each hand with a neutral grip, beginning with the arms straight. This will be your starting position. Retract the shoulder blades and flex the elbows to row the dumbbells to your side. ",
+    "MainMuscles": [],
+    "category": 12,
+    "SecondaryMuscles": [
+      12
+    ]
+  },
+  {
+    "name": "Braced Squat",
+    "description": "Stand with feet slightly wider than shoulder-width apart, while standing as tall as you can. Grab a weight plate and hold it out in front of your body with arms straight out. Keep your core tight and stand with a natural arch in your back.",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      8
+    ]
+  },
+  {
+    "name": "Barbell Ab Rollout",
+    "description": "Place a barbell on the floor at your feet. Bending at the waist, grip the barbell with a shoulder with overhand grip. With a slow controlled motion, roll the bar out so that your back is straight. Roll back up raising your hips and butt as you return to the starting position.",
+    "MainMuscles": [
+      14,
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": [
+      2,
+      12
+    ]
+  },
+  {
+    "name": "Barbell Triceps Extension",
+    "description": "Position barbell overhead with narrow overhand grip. Lower forearm behind upper arm with elbows remaining overhead. Extend forearm overhead. Lower and repeat.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Dumbbell Split Squat",
+    "description": "Split Squats with Dumbbells: http://www.bodybuilding.com/exercises/detail/view/name/split-squat-with-dumbbells",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Pike Push Ups",
+    "description": "Push Up performed from a pike position (optional to have feet elevated).",
+    "MainMuscles": [
+      4
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      5
+    ]
+  },
+  {
+    "name": "Bentover Dumbbell Rows",
+    "description": "With dumbbells in hand, bend at the hip until hands hang just below the knees (similar to straight-legged-deadlift starting position). Keep upper body angle constant while contracting your lats to pull you ellbows back pinching the shoulder blades at the top.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      1,
+      11,
+      13
+    ]
+  },
+  {
+    "name": "Hip Raise, Lying",
+    "description": "Lying down on your back, with your feet flat on the floor. Raise your hips up evenly as high as you can and hold for as long as you can.",
+    "MainMuscles": [
+      11,
+      8
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      12,
+      14,
+      6,
+      9
+    ]
+  },
+  {
+    "name": "Walking",
+    "description": "Walking, distance and time. Should allow a range of inputs (running, etc)",
+    "MainMuscles": [],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "LifeFitness Calf Extension machine",
+    "description": "Seated calf extension machine by LifeFitness",
+    "MainMuscles": [
+      7
+    ],
+    "category": 14,
+    "SecondaryMuscles": [
+      15
+    ]
+  },
+  {
+    "name": "Pistol Squat",
+    "description": "One legged squat",
+    "MainMuscles": [
+      11,
+      8
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      2,
+      1,
+      13
+    ]
+  },
+  {
+    "name": "Rack deadlift",
+    "description": "Deadlift to be done using a Smith machine or a free rack. Bar or barbell hould be just right under the knee cap level. Lift using the glutes and through the heels, then come back to starting postion with a control movement of 2 seconds. This exercise targets mainly the lower back and glutes.",
+    "MainMuscles": [
+      8
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      1
+    ]
+  },
+  {
+    "name": "Triceps dips",
+    "description": "lift on parallel bars hold for 1 second, and lower slowly and control for 4 seconds, then come back with no rest (tempo: 4010)",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Incline Bench Press",
+    "description": "To do slowly, tempo is 4010",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": [
+      5
+    ]
+  },
+  {
+    "name": "Incline Plank with alternate floor touch",
+    "description": "Perform the plank with legs elevated, feet on a gymball. Once stabilised, slowly move one foot sideways off the ball, then make it touch the floor, then come back to starting position. Alternate with the other foot. This is a core exercise.",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": [
+      14
+    ]
+  },
+  {
+    "name": "Hanging Leg Raises",
+    "description": "Hanging from bar or straps, bring legs up with knees extended or flexed",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Cable Woodchoppers",
+    "description": "Set cable pulley slightly lower than chest height. Keep body facing forward with hips stable.  Grab the pulley handle, fully extend your arms and bring your arms forward and across your body. Hold for 1 second at the end of the movement and slowly return to starting position.",
+    "MainMuscles": [
+      14
+    ],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Incline Pushups",
+    "description": "Regular push with a 30 degree incline.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": [
+      11
+    ]
+  },
+  {
+    "name": "Splinter Sit-ups",
+    "description": "Lie on your back with your legs straight and arms at your sides, keeping your elbows bent at 90 degrees. As you sit up, twist your upper body to the left and bring your left knee toward your right elbow while you swing your left arm back. Lower your body to the starting position, and repeat to your right. That's 1 rep.",
+    "MainMuscles": [
+      14
+    ],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Side Crunch",
+    "description": "Hold weight in one hand. Bend side ways to the knee. Pull upo to upright position using your obliquus.",
+    "MainMuscles": [
+      14
+    ],
+    "category": 10,
+    "SecondaryMuscles": [
+      6
+    ]
+  },
+  {
+    "name": "Leg Extension",
+    "description": "Seated Leg Extension Machine",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Trazioni alla sbarra presa inversa",
+    "description": "Trazioni alla sbarra presa inversa",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Chin-ups",
+    "description": "Like pull-ups but with a reverse grip",
+    "MainMuscles": [
+      1,
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Perfect Push Up",
+    "description": "Push up with perfect push up",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Squat Jumps",
+    "description": "Jump wide, then close",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Triceps bench press one barbell",
+    "description": "Činka v jedné ruce v úrovni ramene. Zvedat do výšky napnuté paže a zpět. Provádět pomalu.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      2
+    ]
+  },
+  {
+    "name": "Lat Pull Down (Straight Back)",
+    "description": "Pull bar down to strenum and keep straight back.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Lat Pull Down (Leaning back)",
+    "description": "Lean Back, Pull into chest",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Power Clean",
+    "description": "Olympic weight lifting",
+    "MainMuscles": [
+      4
+    ],
+    "category": 13,
+    "SecondaryMuscles": [
+      10
+    ]
+  },
+  {
+    "name": "Push Press",
+    "description": "olympic weight lifting",
+    "MainMuscles": [
+      9
+    ],
+    "category": 13,
+    "SecondaryMuscles": [
+      8
+    ]
+  },
+  {
+    "name": "Front Squats",
+    "description": "Squats",
+    "MainMuscles": [
+      8
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      6
+    ]
+  },
+  {
+    "name": "Bench Press",
+    "description": "Lay down on a bench, the bar should be directly above your eyes, the knees are somewhat angled and the feet are firmly on the floor. Concentrate, breath deeply and grab the bar more than shoulder wide. Bring it slowly down till it briefly touches your chest at the height of your nipples. ",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": [
+      1
+    ]
+  },
+  {
+    "name": "Preacher Curls",
+    "description": " Place the EZ curl bar on the rest handles in front of the preacher bench.",
+    "MainMuscles": [
+      13
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      13
+    ]
+  },
+  {
+    "name": "Cross-Bench Dumbbell Pullovers",
+    "description": "Grasp a moderately weighted dumbbell so your palms are flat against the underside of the top plates and your thumbs are around the bar. ",
+    "MainMuscles": [
+      12,
+      4,
+      3
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Push ups",
+    "description": "Start with your body streched, your hands are shoulder-wide appart on the ground. Push yourself off the ground till you strech your arms. ",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      2,
+      4,
+      6
+    ]
+  },
+  {
+    "name": "Overhand Cable Curl",
+    "description": "Hands at shoulder height, curl arms in toward head, then back out.",
+    "MainMuscles": [
+      1
+    ],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Pendelay rows",
+    "description": "Back excercise with a barbell with a starting position which is in a bent...",
+    "MainMuscles": [
+      12,
+      9
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      1,
+      5
+    ]
+  },
+  {
+    "name": "Wall pushup",
+    "description": "Pushup against a wall",
+    "MainMuscles": [
+      2,
+      4,
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      8,
+      6,
+      3,
+      9
+    ]
+  },
+  {
+    "name": "Wide-grip pulldown",
+    "description": "Lat pulldowns with a wide grip on the bar.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Single-arm preacher curl",
+    "description": "Sit on the preacher curl bench and perform a bicep curl with a dumbbell in one hand. Your other hand can be at rest, or beneath your curling arm's elbow.",
+    "MainMuscles": [
+      1
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Incline dumbbell flye",
+    "description": "Use inclined bench. Hold dumbbells straight out to your sides, elbows slightly bent. Bring arms together above you, keeping angle of elbows fixed.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Cable cross-over",
+    "description": "Begin with cables at about shoulder height, one in each hand. Take a step forward so that one foot is in front of the other, for stability, ",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Reverse bar curl",
+    "description": "Hold bar with reverse (or \"overhand\") grip, palms facing the floor.",
+    "MainMuscles": [
+      1
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Stiff-legged deadlifts",
+    "description": " Keep legs straight Keep back straight ",
+    "MainMuscles": [
+      11
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      8
+    ]
+  },
+  {
+    "name": "Incline dumbbell press",
+    "description": " Bench should be angled anywhere from 30 to 45 degrees Be sure to press dumbbells straight upward (perpendicular to the floor) ",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Leverage machine chest press",
+    "description": "Be sure to adjust seat height so that the handles are towards the bottom of your pectorals.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Underhand lat pull down",
+    "description": "Grip the pull-down bar with your palms facing you and your hands closer than shoulder-width apart. Lean back slightly and keep your back straight. Pull the bar down towards your chest,",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      1
+    ]
+  },
+  {
+    "name": "Close-grip lat pull down",
+    "description": "Grip the pull-down bar with your hands closer than shoulder width apart, with your palms facing away from you. Lean back slightly. Pull the bar down towards your chest,",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Leverage machine iso row",
+    "description": "Adjust seat height so that the handles are at the bottom of your pectorals or just below.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Straight-arm pull down (rope attachment)",
+    "description": "Use the rope attachment on a high pulley. Grasp the two ends of the rope with your arms straight out in front of you. Pull your hands down towards your hips, while keeping your arms straight, then raise them back up to the starting position.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      5
+    ]
+  },
+  {
+    "name": "Straight-arm pull down (bar attachment)",
+    "description": "Use the straight bar attachment on a high pulley. Grasp the two ends of the bar with your palms facing downward and your arms straight out in front of you. Pull your hands...",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      5
+    ]
+  },
+  {
+    "name": "Close-grip bench press",
+    "description": "Perform a typical bench press, but hold the bar with your hands approximately shoulder-width apart and keep your elbows close to your body.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      4
+    ]
+  },
+  {
+    "name": "Smith machine close-grip bench press",
+    "description": "Perform a standard bench press on the smith machine, but have your hands on the bar about shoulder width apart, and keep your elbows close to your body.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      4
+    ]
+  },
+  {
+    "name": "Super Squat",
+    "description": "Yep",
+    "MainMuscles": [
+      10,
+      6
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      11
+    ]
+  },
+  {
+    "name": "Arnold Shoulder Press",
+    "description": "Very common shoulder exercise.   As shown here: https://www.youtube.com/watch?v=vj2w851ZHRM",
+    "MainMuscles": [],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Military Press",
+    "description": "The military press is a variation of the overhead press weight training exercise using very strict form and no pre-movement momentum.The military press targets the deltoid muscles in the shoulders as well as the triceps.",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": [
+      4,
+      5
+    ]
+  },
+  {
+    "name": "Plank",
+    "description": "Get into a position on the floor supporting your weight on your forearms and toes. Arms are bent and directly below the shoulder.  Keep your body straight at all times and hold this position as long as possible. To increase difficulty an arm or leg can be raised while performing this exercise.  ",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Kettlebell Swings",
+    "description": "It's a swing from the hip, not a squat!",
+    "MainMuscles": [
+      8,
+      12
+    ],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Low Row Machine",
+    "description": "Specific product for building strength in the trunk and latissimus dorsi muscles. The exercise involves pulling the two independent levers towards the chest, keeping the arms out in front and the elbows low, parallel to the shoulders. Resistance is provided by a weight stack which enables the",
+    "MainMuscles": [],
+    "category": 12,
+    "SecondaryMuscles": [
+      1,
+      12
+    ]
+  },
+  {
+    "name": "Upper External Oblique",
+    "description": "Exercise for upper external oblique MainMuscles",
+    "MainMuscles": [
+      14
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Decline Pushups",
+    "description": "With your feet raised approximately 30cm on a platform, align your shoulders, elbows and hands, then perform regular pushups. This emphasises the clavicular fibers of the pectoralis major.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": [
+      2,
+      5
+    ]
+  },
+  {
+    "name": "Glute",
+    "description": "Glute machine",
+    "MainMuscles": [],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Cable External Rotation",
+    "description": "Steps:  Start off placing an extension band around a post or in a secure position where it will not release and is at elbow level. Position yourself to the side of the band and with your hand that is opposite of the band, reach out and grab the handle. Bring the band to your chest keeping your...",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Bent High Pulls",
+    "description": "Bend over slightly while holding two dumbbells.  Pull the dumbbells up to your chest, keeping your elbows as high as you can.",
+    "MainMuscles": [
+      9
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Pause Bench",
+    "description": "Lower the bar to your chest and pause (but do not rest) there for 2 seconds. Press back up. use the same weight you would on bench press, but perform only single reps. Total the number of reps you did in one set of bench press (if you did 3 sets of 8 do 8 sinlge pause bench reps.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": [
+      5
+    ]
+  },
+  {
+    "name": "Snach",
+    "description": "Stand with your feet at hip width and your shins against the bar. Grasp the bar at double shoulder width and, keeping your lower back flat, drive your heels into the floor to begin lifting the bar. When it's above your knees, explosively extend your hips and shrug your shoulders. Let the momentum carry the weight overhead.",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Dumbbell Triceps Extension",
+    "description": "Position one dumbbell over head with both hands under inner plate (heart shaped grip). With elbows over head, lower forearm behind upper arm by flexing elbows. Flex wrists at bottom to avoid hitting dumbbell on back of neck. Raise dumbbell over head by extending elbows while hyperextending wrists. Return and repeat.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Dumbbell Concentration Curl",
+    "description": "Sit on bench. Grasp dumbbell between feet. Place back of upper arm to inner thigh. Lean into leg to raise elbow slightly.",
+    "MainMuscles": [
+      13
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      1
+    ]
+  },
+  {
+    "name": "Side dumbbell trunk flexion",
+    "description": "AKA dumbbell side bends. Stand in line with the hips with slightly bent knees, maintain the natural curvature of the spine, hand stretched by the body, grip the barbell with one hand.  Make slow and controlled torso side flexions till you reach the angle of approximately 45°.",
+    "MainMuscles": [
+      14
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      6
+    ]
+  },
+  {
+    "name": "L hold",
+    "description": "Hold the L position for as long as possible",
+    "MainMuscles": [],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "farmers walks",
+    "description": "Grab dumbbells and walk  ",
+    "MainMuscles": [
+      1,
+      11,
+      13
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      9
+    ]
+  },
+  {
+    "name": "duck walks",
+    "description": "Grab kettlebell and walk while holding it between legs",
+    "MainMuscles": [
+      1,
+      13,
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      14,
+      6
+    ]
+  },
+  {
+    "name": "yolk walks",
+    "description": "Grab barbell and place on shoulders then walk",
+    "MainMuscles": [
+      2,
+      9
+    ],
+    "category": 13,
+    "SecondaryMuscles": [
+      14,
+      6
+    ]
+  },
+  {
+    "name": "Biceps curls with barbell",
+    "description": "Hold the Barbell shoulder-wide, the back is straight, the shoulders slightly back, the arms are streched. Bend the arms, bringing the weight up, with a fast movement. Without pausing, let down the bar with a slow and controlled movement. Don't allow your body to swing during the exercise, all work is done by the biceps...",
+    "MainMuscles": [
+      1
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      13
+    ]
+  },
+  {
+    "name": "Biceps curls with SZ-bar",
+    "description": "Hold the SZ-bar shoulder-wide, the back is straight, the shoulders slightly back, the arms are streched. Bend the arms, bringing the weight up, with a fast movement. Without pausing, let down the bar with a slow and controlled movement. Don't allow your body to swing during the exercise, all work is done by the biceps, which are the only mucles that should move (pay attention to the elbows).",
+    "MainMuscles": [
+      1
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      13
+    ]
+  },
+  {
+    "name": "Biceps curls with dumbbell",
+    "description": "Hold two barbells, the arms are streched, the hands are on your side, the palms face inwards. Bend the arms and bring the weight with a fast movement up. At the same time, rotate your arms by 90 degrees at the very beginning of the movement. At the highest point, rotate a little the weights further outwards. Without a pauss..",
+    "MainMuscles": [
+      1
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      13
+    ]
+  },
+  {
+    "name": "Dips",
+    "description": "Hold onto the bars at a narrow place (if they are not parallel) and press yourself up, but don't stretch the arms completely, so the muscles stay during the whole exercise under tension. Now bend the arms and go down as much as you can, keeping the elbows always pointing back, At this point, you can make a short pause before repeating the movement.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      4,
+      6
+    ]
+  },
+  {
+    "name": "Dips between two benches",
+    "description": "Put two benches so far appart, that you can hold onto one with your hands and are just able to reach the other with your feet. The legs stay during the exercise completely stretched. With your elbows facing back, bend them as much as you can. Push yourself up, but don't stretch out the arms.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "French press (skullcrusher) SZ-bar",
+    "description": "Hold the SZ-bar and lay down on a flat bench in such a way that around 1/4 of your head is over the edge. Stretch your arms with the bar and bend them so that the bar is lowered. Just before it touches your forehead, push it up. Pay attention to your elbows and arms: only the triceps are doing the work, the rest of the arms should not move.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "French press (skullcrusher) dumbbells",
+    "description": "Hold the dumbbells and lay down on a flat bench in such a way that around 1/4 of your head is over the edge. Stretch your arms with the weights and bend them so that the dumbbells are lowered (make sure they don't touch each other). Just before they touch your forehead, push them up. Pay attention to your elbows and arms: only the triceps are doing the work, the rest of the arms should not move.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Hammercurls",
+    "description": "Hold two dumbbells and sit on a bench with a straight back, the shoulders are slightly rolled backwards. Your pals point to your body. Bend the arms and bring the weight up with a fast movement. Don't rotate your hands, as with the curls. Without any pause bring the dumbbell down with a slow, controlled movement. Don't swing your body during the exercise, the biceps should do all the work here.",
+    "MainMuscles": [
+      1
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Dumbbells on scott machine",
+    "description": "",
+    "MainMuscles": [
+      1
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Bench press narrow grip",
+    "description": "Lay down on a bench, the bar is directly over your eyes, the knees form a slight angle and the feet are firmly on the ground. Hold the bar with a narrow grip (around 20cm.). Lead the weight slowly down till the arms are parallel to the floor (elbow: right angle), press then the bar up. When bringing the bar down, don't let it down on your nipples as with the regular bench pressing, but somewhat lower.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      2,
+      4
+    ]
+  },
+  {
+    "name": "Triceps extensions on cable",
+    "description": "Grab the cable, stand with your feet shoulder wide, keep your back straight and lean forward a little. Push the bar down, making sure the elbows don't move during the exercise. Rotate your hands outwards at the very end and go back to the initial position without pause.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Triceps extensions on cable with bar",
+    "description": "Grab the bar, stand with your feet shoulder wide, keep your back straight and lean forward a little. Push the bar down, making sure the elbows don't move during the exercise. Without pause go back to the initial position.",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Crunches",
+    "description": "Lay down on your back a soft surface, the feet are on the floor. Ask a partner or use some other help (barbell, etc.) to keep them fixed, your hands are behind your head. From this position move your upper body up till your head or elbows touch your knees. Do this movement by rolling up your back.",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": [
+      3
+    ]
+  },
+  {
+    "name": "Crunches with cable",
+    "description": "Take the cable on your hands and hold it next to your temples. Knee down and hold your upper body straight and bend forward. Go down with a fast movement, rolling your back in (your ellbows point to your knees). Once down, go slowly back to the initial position.",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Negative crunches",
+    "description": "Sit yourself on the decline bench and fix your legs. Cross your arms over the chest and bring with a rolling movement your upper body up, go now without a pause and with a slow movement down again. Don't let your head move during the exercise.",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Crunches on machine",
+    "description": "The procedure is very similar as for regular crunches, only with the additional weight of the machine. Sit on the machine, put both feet firmly on the ground. Grab the to the weights, cables, etc. and do a rolling motion forwards (the spine should ideally lose touch vertebra by vertebra). Slowly return to the starting position. ",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Sit-ups",
+    "description": "Sit on a mat, your calves are resting on a bench, the knees make a right angle. Hold your hands behind your neck. Go now up with a rolling movement of your back, you should feel how the individual vertebrae lose contact with the mat. At the highest point, contract your abs as much as you can and hold there for 2 sec. Go now down, unrolling your back.  ",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Benchpress dumbbells",
+    "description": "The movement is very similar to benchpressing with a barbell, however, the weight is brought down to the chest at a lower point. Hold two dumbbells and lay down on a bench. Hold the weights next to the chest, at the height of your nipples and press them up till the arms are stretched. Let the weight slowly and controlled down.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": [
+      2,
+      5
+    ]
+  },
+  {
+    "name": "Butterfly",
+    "description": "Sit on the butterfly machine, the feet have a good contact with the floor, the upper arms are parallel to the floor. Press your arms together till the handles are practically together (but aren't!). Go slowly back. The weights should stay all the time in the air.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": [
+      2
+    ]
+  },
+  {
+    "name": "Butterfly narrow grip",
+    "description": "The movement is the same as with a regular butterfly, only that the grip is narrow: Sit on the butterfly machine, the feet have a good contact with the floor, the upper arms are parallel to the floor. Press your arms together till the handles are practically together (but aren't!). Go slowly back. The weights should stay all the time in the air.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Decline bench press barbell",
+    "description": "Lay down on a decline bench, the bar should be directly above your eyes, the knees are somewhat angled and the feet are firmly on the floor. Concentrate, breath deeply and grab the bar more than shoulder wide. Bring it slowly down till it briefly touches your chest at the height of your nipples. Push the bar up.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Decline bench press dumbbell",
+    "description": "Take two dumbbells and sit on a decline bench, the feet are firmly on the floor, the head is resting the bench. Hold the weights next to the chest, at the height of your nipples and press them up till the arms are stretched. Let the weight slowly and controlled down.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Standing calf raises",
+    "description": "Get onto the calf raises machine, you should able to completely push your calves down. Stand straight, don't make a hollow back and don't bend your legs. Pull yourself up as high as you can. Make a small pause of 1 - 2 seconds and go slowly down.",
+    "MainMuscles": [
+      7
+    ],
+    "category": 14,
+    "SecondaryMuscles": [
+      15
+    ]
+  },
+  {
+    "name": "Sitting calf raises",
+    "description": "Sit on a bench for calf raises and check that the feet are half free and that you can completely stretch the calf muscles down. Pull your calves up, going as far (up) as you can. Make at the highest point a short pause of 1 or 2 seconds and go down.",
+    "MainMuscles": [
+      15
+    ],
+    "category": 14,
+    "SecondaryMuscles": [
+      7
+    ]
+  },
+  {
+    "name": "Calf raises on Hackenschmitt machine",
+    "description": "Place yourself on the machine with your back firmly against the backrest, the feet are on the platform for calf raises. Check that the feet are half free and that you can completely stretch the calf muscles down. With straight knees pull up your weight as much as you can. Go with a fluid movement down till the calves are completely stretched. Repeat.",
+    "MainMuscles": [
+      7
+    ],
+    "category": 14,
+    "SecondaryMuscles": [
+      15
+    ]
+  },
+  {
+    "name": "Deadlifts",
+    "description": "Stand firmly, with your feet slightly more than shoulder wide apart. Stand directly behind the bar where it should barely touch your shin, your feet pointing a bit out. Bend down with a straight back, the knees also pointing somewhat out. Grab the bar with a shoulder wide grip, one underhand, one reverse grip. Pull the weight up. At the highest point make a slight hollow back and pull the bar back.",
+    "MainMuscles": [
+      12,
+      10
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      8
+    ]
+  },
+  {
+    "name": "Rowing, T-bar",
+    "description": "The execution of this exercise is very similar to the regular bent over rowing, only that the bar is fixed here. Grab the barbell with a wide grip (slightly more than shoulder wide) and lean forward. Your upper body is not quite parallel to the floor, but forms a slight angle. The chest's out during the whole exercise. Pull now the barbell with a fast movement towards your belly button, not further up.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      2,
+      1,
+      13
+    ]
+  },
+  {
+    "name": "Pull-ups",
+    "description": "Grab the pull up bar with a wide grip, the body is hanging freely. Keep your chest out and pull yourself up till your chin reaches the bar or it touches your neck, if you want to pull behind you. Go with a slow and controlled movement down, always keeping the chest out.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      2,
+      1,
+      9
+    ]
+  },
+  {
+    "name": "Rowing, seated",
+    "description": "",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Bent over rowing",
+    "description": "Grab the barbell with a wide grip (slightly more than shoulder wide) and lean forward. Your upper body is not quite parallel to the floor, but forms a slight angle. The chest's out during the whole exercise. Pull now the barbell with a fast movement towards your belly button, not further up. Go slowly down to the initial position. Don't swing with your body and keep your arms next to your body.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      2,
+      1
+    ]
+  },
+  {
+    "name": "Bent over rowing reverse",
+    "description": "The same as regular rowing, but holding a reversed grip (your palms pointing forwards): Grab the barbell with a wide grIp (slightly more than shoulder wide) and lean forward. Your upper body is not quite parallel to the floor, but forms a slight angle. The chest's out during the whole exercise. Pull now the barbell with a fast movement towards your belly button, not further up. Go slowly down to the initial position.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      2,
+      1
+    ]
+  },
+  {
+    "name": "Squats",
+    "description": "Make sure you have put the barbell at a height where you can comfortably take it out and put it back in. Take it out and make yourself ready:  The bar is somewhat lower than your shoulders The feet are quite apart and point out The head is in your neck and looks up The chest is out  Go now slowly down, till your thighs are parallel with the floor, not lower. The knees point outwards, your butt, out.",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      8
+    ]
+  },
+  {
+    "name": "Dumbbell lunges standing",
+    "description": ".",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      8
+    ]
+  },
+  {
+    "name": "Dumbbell lunges walking",
+    "description": "Take two dumbbells in your hands, stand straight, feet about shoulder wide. Take one long step so that the front knee is approximately forming a right angle. The back leg is streched, the knee is low but doesn't touch the ground. \"Complete\" the step by standing up and repeat the movement with the other leg.",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      8
+    ]
+  },
+  {
+    "name": "Leg presses (wide)",
+    "description": "Sit on the machine and put your feet on the platform, a bit more than shoulder wide. The feet are turned outwards by a few degrees. Lower the weight so much, that the knees form a right angle. Push immediately the platform up again, without any pause. When in the lower position, the knees point a bit outwards and the movement should be always fluid.",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      8
+    ]
+  },
+  {
+    "name": "Leg presses (narrow)",
+    "description": "The exercise is very similar to the wide leg press: Sit on the machine and put your feet on the platform so far apart  that you could just put another foot in between them. The feet are parallel and point up. Lower the weight so much, that the knees form a right angle. Push immediately the platform up again, without any pause. When in the lower position, the knees point a bit outwards and the movement should be always fluid.",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": [
+      8
+    ]
+  },
+  {
+    "name": "Good mornings",
+    "description": "",
+    "MainMuscles": [
+      11
+    ],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Leg curls (sitting)",
+    "description": "",
+    "MainMuscles": [
+      11
+    ],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Leg curls (standing)",
+    "description": "",
+    "MainMuscles": [
+      11
+    ],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Shoulder press, barbell",
+    "description": "Sit on a bench, the back rest should be almost vertical. Take a barbell with a shoulder wide grip and bring it up to chest height. Press the weight up, but don't stretch the arms completely. Go slowly down and repeat.",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Fly with cable",
+    "description": "",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Shoulder press, dumbbells",
+    "description": "Sit on a bench, the back rest should be almost vertical. Take two dumbbells and bring them up to shoulder height, the palms and the elbows point during the whole exercise to the front. Press the weights up, at the highest point they come very near but don't touch. Go slowly down and repeat.",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Butterfly reverse",
+    "description": "",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Leg raises, lying",
+    "description": "Lay down on a bench and hold onto the recliner with your hands to keep you stable. Hold your legs straight and lift them till they make an angle of about 45°. Make a short pause of 1 sec. and go slowly down to the initial position. To increase the intensity you can make a longer pause of 7 sec. every 5th time.",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": [
+      3
+    ]
+  },
+  {
+    "name": "Leg raises, standing",
+    "description": "Put your forearms on the pads on the leg raise machine, the body is hanging freely. Lift now your legs with a fast movement as high as you can, make a short pause of 1sec at the top, and bring them down again. Make sure that during the exercise your body does not swing, only the legs should move.",
+    "MainMuscles": [
+      6
+    ],
+    "category": 10,
+    "SecondaryMuscles": [
+      3
+    ]
+  },
+  {
+    "name": "Upright row, SZ-bar",
+    "description": "Stand straight, your feet are shoulder-width apart. Hold the SZ-bar with an overhand grip on your thighs, the arms are stretched. Lift the bar close to the body till your chin. The elbows point out so that at the highest point they form a V. Make here a short pause before going slowly down and repeating the movement.",
+    "MainMuscles": [
+      2,
+      9
+    ],
+    "category": 13,
+    "SecondaryMuscles": [
+      1
+    ]
+  },
+  {
+    "name": "Biceps curl with cable",
+    "description": "Stand around 30 - 40cm away from the cable, the feet are firmly on the floor. Take the bar and lift the weight with a fast movements. Lower the weight as with the dumbbell curls slowly and controlled.",
+    "MainMuscles": [
+      1
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Leg press on hackenschmidt machine",
+    "description": "",
+    "MainMuscles": [
+      10
+    ],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Hammercurls on cable",
+    "description": "Take a cable in your hands (palms parallel, point to each other), the body is straight. Bend the arms and bring the weight up with a fast movement. Without any pause bring it back down with a slow, controlled movement, but don't stretch completely your arms. Don't swing your body during the exercise, the biceps should do all the work here. The elbows are at your side and don't move.",
+    "MainMuscles": [
+      1
+    ],
+    "category": 8,
+    "SecondaryMuscles": [
+      13
+    ]
+  },
+  {
+    "name": "Triceps machine",
+    "description": ".",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Pull ups on machine",
+    "description": "",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      2,
+      1,
+      9
+    ]
+  },
+  {
+    "name": "MGM machine",
+    "description": "",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Rowing, lying on bench",
+    "description": "",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Long-Pulley (low row)",
+    "description": "Sit down, put your feet on the supporting points and grab the bar with a wide grip. Pull the weight with a rapid movement towards your belly button, not upper. Keep your arms and elbows during the movement close to your body. Your shoulders are pulled together. Let the weight slowly down till your arms are completely stretched.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      1,
+      13
+    ]
+  },
+  {
+    "name": "Long-Pulley, narrow",
+    "description": "The exercise is the same as the regular long pulley, but with a narrow grip: Sit down, put your feet on the supporting points and grab the bar with a wide grip. Pull the weight with a rapid movement towards your belly button, not upper. Keep your arms and elbows during the movement close to your body. Your shoulders are pulled together. Let the weight slowly down till your arms are completely stretched.",
+    "MainMuscles": [
+      12
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      1,
+      13
+    ]
+  },
+  {
+    "name": "Fly with dumbbells",
+    "description": "Take two dumbbells and lay on a bench, make sure the feet are firmly on the ground and your back is not arched, but has good contact with the bench. The arms are stretched in front of you, about shoulder wide. Bend now the arms a bit and let them down with a half-circle movement to the side. Without changing the angle of the elbow bring them in a fluid movement back up.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Fly with dumbbells, decline bench",
+    "description": "The exercise is the same as with a regular bench: Take two dumbbells and lay on a bench, make sure the feet are firmly on the ground and your back is not arched, but has good contact with the bench. The arms are stretched in front of you, about shoulder wide. Bend now the arms a bit and let them down with a half-circle movement to the side. Without changing the angle of the elbow bring them in a fluid movement back up.",
+    "MainMuscles": [
+      4
+    ],
+    "category": 11,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Upright row, on multi press",
+    "description": "The movements are basically the same as with an SZ-bar, but you use the bar on the multi press: Stand straight, your feet are shoulder-width apart. Hold the bar with an overhand grip on your thighs, the arms are stretched. Lift the bar close to the body till your chin. The elbows point out so that at the highest point they form a V. Make here a short pause before going slowly down and repeating the movement.",
+    "MainMuscles": [
+      2,
+      9
+    ],
+    "category": 13,
+    "SecondaryMuscles": [
+      1
+    ]
+  },
+  {
+    "name": "Lateral raises",
+    "description": ".",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Lateral raises on cable, one armed",
+    "description": ".",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Shrugs, barbells",
+    "description": "Take a barbell and stand with a straight body, the arms are hanging freely in front of you. Lift from this position the shoulders as high as you can, but don't bend the arms during the movement. On the highest point, make a short pause of 1 or 2 seconds before returning slowly to the initial position. When training with a higher weight, make sure that you still do the whole movement!",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Shrugs, dumbbells",
+    "description": "Stand with straight body, the hands are hanging freely on the side and hold each a dumbbell. Lift from this position the shoulders as high as you can, but don't bend the arms during the movement. On the highest point, make a short pause of 1 or 2 seconds before returning slowly to the initial position. When training with a higher weight, make sure that you still do the whole movement!",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Shoulder press, on machine",
+    "description": "",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Leg curls (laying)",
+    "description": "Lay on a bench and put your calves behind the leg holder (better if they are hold on around the lower calves). Hold a grip on the bars to make sure the body is firmly in place. Bend your legs bringing the weight up, go slowly back. During the exercise the body should not move, all work is done by the legs.",
+    "MainMuscles": [
+      11
+    ],
+    "category": 9,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Shoulder press, on multi press",
+    "description": "The exercise is basically the same as with a free barbell: Sit on a bench, the back rest should be almost vertical. Take a bar with a shoulder wide grip and bring it down to chest height. Press the weight up, but don't stretch the arms completely. Go slowly down and repeat.",
+    "MainMuscles": [
+      2
+    ],
+    "category": 13,
+    "SecondaryMuscles": []
+  },
+  {
+    "name": "Chin ups",
+    "description": "Pull up",
+    "MainMuscles": [
+      2
+    ],
+    "category": 12,
+    "SecondaryMuscles": [
+      1
+    ]
+  },
+  {
+    "name": "Seated Triceps Press",
+    "description": "Sit down on a back (better with back support). Take a dumbbell firmly with both hands and hold it with extended arms over your head. With your palms facing upward and holding the weight of the dumbbell, slowly lower the weight behind your head.  ",
+    "MainMuscles": [
+      5
+    ],
+    "category": 8,
+    "SecondaryMuscles": []
+  }
+]

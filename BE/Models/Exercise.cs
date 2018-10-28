@@ -42,12 +42,12 @@ namespace BE.Models
     {
         public Muscles()
         {
-            
+
         }
         public Muscles(Int64 i)
         {
             Id = (int)i;
-          
+
         }
         // User-defined conversion from Digit to double
         public static explicit operator Muscles(Int64 i)
@@ -107,11 +107,11 @@ namespace BE.Models
 
     }
 
-   
 
 
 
 
-   
+
+
 }
 

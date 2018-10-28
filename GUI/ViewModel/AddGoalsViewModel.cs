@@ -98,11 +98,8 @@ namespace GUI.ViewModel
             }
             catch (Exception e)
             {
-
                 await _messageDialogService.ShowInfoDialogAsync("Error The Goal not Save Please contact the administrator");
                 IsLoad = false;
-
-
             }
 
 

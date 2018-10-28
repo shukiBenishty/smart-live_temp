@@ -7,11 +7,12 @@
              mc:Ignorable="d" 
              
              HorizontalAlignment="Stretch"
-	         VerticalAlignment="Stretch"
 	         HorizontalContentAlignment="Stretch"
-	         VerticalContentAlignment="Stretch"
+             MaxHeight="369"
              Height="auto"
-             Width="auto" >
+             Width="auto"
+            
+             >
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0.25*"/>
@@ -23,7 +24,7 @@
             <RowDefinition Height="Auto" />
             <RowDefinition  Height="Auto" />
         </Grid.RowDefinitions>
-       
+
         <Grid Grid.Column="0">
             <Grid.RowDefinitions>
                 <RowDefinition />
@@ -52,8 +53,8 @@
         <Grid Grid.Column="1" >
             <StackPanel Orientation="Vertical">
                 <Label Content="Description:"/>
-                <ScrollViewer>
-                    <TextBlock  TextWrapping="WrapWithOverflow" Text="{Binding Exercise.Description}" />
+                <ScrollViewer VerticalScrollBarVisibility="Visible" CanContentScroll="True" IsDeferredScrollingEnabled="True" PanningMode="VerticalFirst" >
+                    <TextBlock   TextWrapping="WrapWithOverflow" Text="{Binding Exercise.Description}" />
                 </ScrollViewer>
             </StackPanel>
         </Grid>

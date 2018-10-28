@@ -11,6 +11,7 @@ using System.Data.Entity;
 using System.Data.Entity.Migrations;
 using Prism.Events;
 using DAL.API.Google;
+using DAL.LocalDb;
 
 namespace DAL
 {
@@ -18,13 +19,11 @@ namespace DAL
     {
         private Login GetLogin { get; }
         private LocalDb.LocalDb localDb { get; }
-
         public DalRouter(IEventAggregator eventAggregator)
         {
             _eventAggregator = eventAggregator;
             DbContext = new DB.SmartLifeDbContext();
             GetLogin = new Login(_eventAggregator);
-            localDb = new LocalDb.LocalDb();
         }
 
         private IEventAggregator _eventAggregator;
@@ -184,15 +183,15 @@ namespace DAL
             {
                 return;
             }
-            var account = await GetAccountAsync(id);
+            var account = await DbContext.Accounts.Where(A => A.Id == id).Include(A => A.Goals).SingleOrDefaultAsync();
             var oldGoal = account.Goals.Where(G => G.From.Year == goal.From.Year && G.From.Month == goal.From.Month && G.From.Day == goal.From.Day).SingleOrDefault();
-            if (oldGoal == null)
+            if (oldGoal != null)
             {
-                account.Goals.Add(goal);
+                DbContext.Entry(oldGoal).CurrentValues.SetValues(goal);
             }
             else
             {
-                oldGoal = goal;
+                account.Goals.Add(goal);
             }
             DbContext.SaveChanges();
         }
@@ -227,12 +226,12 @@ namespace DAL
 
         public async Task<Exercise> GetExercise(string name)
         {
-            return await localDb.GetExercise(name);
+            return await new LocalDb.LocalDb().GetExercise(name);
         }
 
         public async Task<List<Exercise>> GetExercises(string search)
         {
-            return await localDb.GetExercises(search);
+            return await new LocalDb.LocalDb().GetExercises(search);
         }
     }
 }

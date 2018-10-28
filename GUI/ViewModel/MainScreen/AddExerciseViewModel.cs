@@ -25,18 +25,18 @@ namespace GUI.ViewModel.MainScreen
             IBlRouter blRouter)
         {
             _selectedDate = selectedDate;
-              ExercisesList = new ObservableCollection<Exercise>();
+            ExercisesList = new ObservableCollection<Exercise>();
             Training = new ObservableCollection<ExerciseInTraining>();
             EventAggregator = eventAggregator;
             _blRouter = blRouter;
-    
+
             FinishCommand = new DelegateCommand<Type>(OnFinish, CanFinish);
 
             subscribe();
         }
 
-       
-        private  void OnFinish(Type obj)
+
+        private void OnFinish(Type obj)
         {
 
             EventAggregator.GetEvent<TrainingAddedEvent>().Publish();
@@ -57,7 +57,7 @@ namespace GUI.ViewModel.MainScreen
                 .Subscribe(OnSelectedDateChanged);
         }
 
-      
+
         private void OnSelectedDateChanged(SelectedDateChangedEventArg obj)
         {
             _selectedDate = obj.SelectedDate;
@@ -93,7 +93,7 @@ namespace GUI.ViewModel.MainScreen
             {
                 ExercisesList.Add(exercies);
             }
-        
+
         }
         private void AddExerciseToTraining(AddExerciseToTraningArg obj)
         {

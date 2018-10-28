@@ -31,8 +31,8 @@
                         <Image Height="50" Width="100" Source="{Binding ImageUrl, Converter={StaticResource BitmapImageConverter}}"  />
                     </DockPanel>
                 </Expander.Header>
-                <Grid  MaxHeight="400" ScrollViewer.VerticalScrollBarVisibility="Auto">
-                    <local:AddExerciseItemView  DataContext="{Binding RelativeSource={RelativeSource AncestorType=ItemsControl}, Path=DataContext.AddExerciseItemViewModel}" />
+                <Grid  MaxHeight="400" >
+                    <local:AddExerciseItemView DataContext="{Binding RelativeSource={RelativeSource AncestorType=ItemsControl}, Path=DataContext.AddExerciseItemViewModel}" />
                 </Grid>
             </Expander>
         </DataTemplate>

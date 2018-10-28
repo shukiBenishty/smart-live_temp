@@ -99,7 +99,7 @@ namespace BL
             return await  dalRouter.GetGoal(dateTime);
         }
 
-        public async Task<Goal> GetDefaultGoal(DateTime dateTime)
+        public Goal GetDefaultGoal(DateTime dateTime)
         {
             dateTime = dateTime.AddDays(-(double)dateTime.DayOfWeek);
             var  goal = new Goal();
@@ -110,9 +110,9 @@ namespace BL
             goal.DietaryFiberConsume = 100;
             goal.TotalfatConsume = 87;
             goal.ProteinConsume = 140;
-            goal.SodiumConsume = 56;
+            goal.SodiumConsume = 560;
             goal.CholesterolConsume = 83;
-            await SaveGoal(goal);
+            SaveGoal(goal);
             return goal;
           
         }

@@ -77,7 +77,6 @@
     <Compile Include="Models\FoodUnit.cs" />
     <Compile Include="Models\Profile.cs" />
     <Compile Include="Models\SearchFood.cs" />
-    <Compile Include="Models\Training.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
