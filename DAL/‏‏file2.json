@@ -1,0 +1,77 @@
+[
+        {
+            "Id": 2,
+            "Name": "Anterior deltoId",
+            "IsFront": true
+        },
+        {
+            "Id": 1,
+            "Name": "Biceps brachii",
+            "IsFront": true
+        },
+        {
+            "Id": 11,
+            "Name": "Biceps femoris",
+            "IsFront": false
+        },
+        {
+            "Id": 13,
+            "Name": "Brachialis",
+            "IsFront": true
+        },
+        {
+            "Id": 7,
+            "Name": "Gastrocnemius",
+            "IsFront": false
+        },
+        {
+            "Id": 8,
+            "Name": "Gluteus maximus",
+            "IsFront": false
+        },
+        {
+            "Id": 12,
+            "Name": "Latissimus dorsi",
+            "IsFront": false
+        },
+        {
+            "Id": 14,
+            "Name": "Obliquus externus abdominis",
+            "IsFront": true
+        },
+        {
+            "Id": 4,
+            "Name": "Pectoralis major",
+            "IsFront": true
+        },
+        {
+            "Id": 10,
+            "Name": "Quadriceps femoris",
+            "IsFront": true
+        },
+        {
+            "Id": 6,
+            "Name": "Rectus abdominis",
+            "IsFront": true
+        },
+        {
+            "Id": 3,
+            "Name": "Serratus anterior",
+            "IsFront": true
+        },
+        {
+            "Id": 15,
+            "Name": "Soleus",
+            "IsFront": false
+        },
+        {
+            "Id": 9,
+            "Name": "Trapezius",
+            "IsFront": false
+        },
+        {
+            "Id": 5,
+            "Name": "Triceps brachii",
+            "IsFront": false
+        }
+    ]
